@@ -12,7 +12,7 @@ class Gate
     const CURRENCY_EUR = 'EUR';
 
     /**
-     * Builder for Payment page
+     * Builder for Payment Page
      *
      * @var PaymentPage $paymentPageUrlBuilder
      */
@@ -35,7 +35,7 @@ class Gate
     }
 
     /**
-     * Get URL for purchase payment page
+     * Get URL for opening Payment Page in the Purchase mode
      *
      * @param Payment $payment Payment object
      *
