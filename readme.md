@@ -12,7 +12,7 @@ The following functionality is implemented:
 * [x] Payment Page opening (URL only)
 * [x] Callback handling
 
-Note that for correct SDK operating your must run on PHP 7.0 or higher.  
+Note that for correct SDK operating your system must run on PHP 7.0 or higher.  
 
 ## Payment flow
 
@@ -28,7 +28,7 @@ composer require ecommpay/paymentpage-sdk
 
 ### Get URL for payment
 
-Specify the configuration settings (project ID, secret key) and the payment parameters. 
+Specify the payment parameters and get the URL fo 
 
 ```php
 $gate = new ecommpay\Gate('secret'); // Specify the secret key of your project
@@ -67,5 +67,5 @@ composer update ecommpay/paymentpage-sdk
 
 ## Additional data
 
-You can find additional information, such as payment statuses, request and callback parameters, in [https://developers.ecommpay.com/en/en_PP_API.html](Payment Page API). 
+You can find additional information, such as payment statuses, request and callback parameters, in [Payment Page API](https://developers.ecommpay.com/en/en_PP_API.html). 
 
